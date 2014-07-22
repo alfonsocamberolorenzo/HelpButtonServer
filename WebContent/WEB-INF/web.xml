@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>HelpButtonServer</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description></description>
+    <display-name>RegisterReceiversServlet</display-name>
+    <servlet-name>RegisterReceiversServlet</servlet-name>
+    <servlet-class>com.helpbutton.RegisterReceiversServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterReceiversServlet</servlet-name>
+    <url-pattern>/RegisterReceiversServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>RegisterSendersServlet</display-name>
+    <servlet-name>RegisterSendersServlet</servlet-name>
+    <servlet-class>com.helpbutton.RegisterSendersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterSendersServlet</servlet-name>
+    <url-pattern>/RegisterSendersServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>GetLocationServlet</display-name>
+    <servlet-name>GetLocationServlet</servlet-name>
+    <servlet-class>com.helpbutton.GetLocationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetLocationServlet</servlet-name>
+    <url-pattern>/GetLocationServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>HelpCreateServlet</display-name>
+    <servlet-name>HelpCreateServlet</servlet-name>
+    <servlet-class>com.helpbutton.HelpCreateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelpCreateServlet</servlet-name>
+    <url-pattern>/HelpCreateServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>HelpRejectServlet</display-name>
+    <servlet-name>HelpRejectServlet</servlet-name>
+    <servlet-class>com.helpbutton.HelpRejectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelpRejectServlet</servlet-name>
+    <url-pattern>/HelpRejectServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>HelpCancelServlet</display-name>
+    <servlet-name>HelpCancelServlet</servlet-name>
+    <servlet-class>com.helpbutton.HelpCancelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelpCancelServlet</servlet-name>
+    <url-pattern>/HelpCancelServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>HelpCancelSenderServlet</display-name>
+    <servlet-name>HelpCancelSenderServlet</servlet-name>
+    <servlet-class>com.helpbutton.HelpCancelSenderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelpCancelSenderServlet</servlet-name>
+    <url-pattern>/HelpCancelSenderServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>HelpAcceptServlet</display-name>
+    <servlet-name>HelpAcceptServlet</servlet-name>
+    <servlet-class>com.helpbutton.HelpAcceptServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelpAcceptServlet</servlet-name>
+    <url-pattern>/HelpAcceptServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>HelpDoneServlet</display-name>
+    <servlet-name>HelpDoneServlet</servlet-name>
+    <servlet-class>com.helpbutton.HelpDoneServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelpDoneServlet</servlet-name>
+    <url-pattern>/HelpDoneServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>HelpDoneReceiverServlet</display-name>
+    <servlet-name>HelpDoneReceiverServlet</servlet-name>
+    <servlet-class>com.helpbutton.HelpDoneReceiverServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelpDoneReceiverServlet</servlet-name>
+    <url-pattern>/HelpDoneReceiverServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>HelpGetPicture</display-name>
+    <servlet-name>HelpGetPicture</servlet-name>
+    <servlet-class>com.helpbutton.HelpGetPicture</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelpGetPicture</servlet-name>
+    <url-pattern>/HelpGetPicture</url-pattern>
+  </servlet-mapping>
+</web-app>
